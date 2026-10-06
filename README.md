@@ -1,10 +1,12 @@
-#📦 Product App – Aplicación Simple en PHP
+# Product App – Aplicación Simple en PHP
 
 Una aplicación sencilla desarrollada en PHP que demuestra los fundamentos de la programación orientada a objetos: clases, atributos, constructores, métodos e instanciación de objetos.
 El proyecto implementa un pequeño sistema de gestión de productos con cálculo de precios e IVA.
+
 ---
 
-##🚀 Características principales
+
+## Características principales
 * Declaración de clases en PHP
 * Uso de atributos privados
 * Constructor para inicializar objetos
@@ -14,64 +16,67 @@ El proyecto implementa un pequeño sistema de gestión de productos con cálculo
 * Código claro y fácil de extender
 ---
 
-##🧩 Estructura del proyecto
-Código
+## Estructura del proyecto
+
 ```
 product-app/
 │
 ├── Product.php      # Clase principal del sistema
 └── index.php        # Punto de entrada de la aplicación
 ```
+
 ---
 
-## 🐘 Tecnologías utilizadas
+## Tecnologías utilizadas
 * PHP 8+
 * Servidor local: XAMPP, WAMP, Laragon o cualquier entorno compatible
 * Navegador web
+
 ---
 
-##📄 Descripción de archivos
-Product.php
+## Descripción de archivos
+
+### Product.php
+
 Contiene la clase Product, con:
 * Atributos: nombre, precio y categoría
 * Constructor para inicializar los valores
 * Método priceWithTax() para calcular el precio con IVA
 * Método showInfo() para mostrar la información del producto
 
-index.php
+### index.php
+
 Archivo principal donde:
 * Se importan las clases
 * Se crean objetos de tipo Product
 * Se ejecutan los métodos para mostrar la información
+
 ---
 
-##▶️ Cómo ejecutar el proyecto
+## Cómo ejecutar el proyecto
 1. Instala un servidor local como XAMPP o WAMP.
 2. Copia la carpeta del proyecto dentro de:
 ```
-Código
 C:\xampp\htdocs\
 ```
 3. Inicia Apache desde el panel de control.
 4. Abre en tu navegador:
 ```
-Código
 http://localhost/product-app/index.php
 ```
 
 ---
 
-##📚 Ejemplo de salida
+## Ejemplo de salida
 La aplicación mostrará información similar a:
 ```
-Código
 Producto: Laptop Lenovo
 Categoría: Tecnología
 Precio base: $15000
 Precio con IVA: $17400
 ```
 
-##🛠️ Cómo extender el proyecto
+## Cómo extender el proyecto
 
 Puedes agregar fácilmente:
 * Formulario HTML para registrar productos
@@ -81,11 +86,12 @@ Puedes agregar fácilmente:
 * API REST en PHP
 ---
 
-##📜 Licencia
+## Licencia
+-
 Este proyecto puede utilizarse con fines educativos, académicos o de demostración.
 Si deseas agregar una licencia formal (MIT, Apache 2.0, GPL), puedo generarla.
 ---
 
-## 🤝 Contribuciones
+## Contribuciones
 Las contribuciones son bienvenidas.
 Puedes abrir un issue o enviar un pull request si deseas mejorar el proyecto.
